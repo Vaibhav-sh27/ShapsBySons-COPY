@@ -1,28 +1,34 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 img{
     height: 60px;
     display: flex;
     justify-content: left;
 }
+
+.landingPage{
+    margin: 1rem 12rem;
+}
 nav{
     display: flex;
     justify-content: right;
+    
 }
 .intro{
     text-align: center;
-    padding: 1px;
     font-size: 5.5rem;
     color: #9EADAC;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 200px;
 }
 .nv-div{
-    display: flex;
+    display: flex;  
     justify-content: space-between;
     margin: 1rem 12rem;
+    
 }
 body{
     background: #07332F;
@@ -38,8 +44,8 @@ a:hover{
     color: yellowgreen;
 }
 button{
-    background-color: black;
-    color: #9EADAC;
+    background-color: white;
+    color: #07332F;
     border: 0;
     padding: 16px 55px;
     box-sizing: border-box;
@@ -47,11 +53,56 @@ button{
     text-transform: uppercase;
     cursor: pointer;
 }
+button:hover{
+    background-color: #CDD6D5;
+}
 .button{
     display: flex;
     justify-content: center;
     padding-top: 4rem;
 }
-.high{
+.wwd{
+    font-family: 'Times New Roman', Times, serif;
+}
+div h2{
     color: white;
+    font-size: 4rem;
+    font-weight: 250;
+    text-align: left;
+    margin: 1.5rem 0rem;
+}
+div p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.5rem;
+    width: 40rem;
+    line-height: 30px;
+    text-align: left;
+    font-family: Manrope;
+}
+#cards{
+    display: flex;
+    margin-top: 7rem;
+
+    
+}
+.cards h3{
+    font-family: Manrope;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+    margin: 1.5rem 0rem;
+}
+.cards p{
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.8);
+    width: 19rem;
+    font-family: Manrope;
+    font-weight: 550;
+    line-height: 30px;
+}
+.cards{
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 2rem;
+    padding: 30px 30px;
 }
